@@ -7,8 +7,10 @@ function NewProject() {
 
   function createPost(project) {
     // initialize cost and services
+
     project.cost = 0;
     project.services = [];
+
     fetch("http://localhost:5000/projects", {
       method: "POST",
       headers: {
@@ -20,7 +22,9 @@ function NewProject() {
       .then((data) => {
         console.log(data);
         //redirect
-        navigate("/projects", { message: "Projeto criado com sucesso!" });
+        navigate("/projects", {
+          state: { message: "Projeto criado com sucesso!" },
+        });
       })
       .catch((err) => console.log(err));
   }
