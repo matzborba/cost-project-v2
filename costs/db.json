@@ -1,14 +1,21 @@
 {
   "projects": [
     {
-      "projectName": "Projeto teste",
-      "budget": "23233",
+      "projectName": "Projeto atualizado 123",
+      "budget": "20000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "1",
+        "name": "Infra"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 200,
+      "services": [
+        {
+          "name": "teste 2",
+          "cost": "200",
+          "description": "teste desc",
+          "id": "ffbcb196-c88f-436d-a15a-a4c1068a0f6a"
+        }
+      ],
       "id": 1
     }
   ],

@@ -49,7 +49,7 @@ function ProjectForm({ btnText, handleSubmit, projectData }) {
           placeholder="Insira o nome do Projeto"
           text="Nome do Projeto"
           handleOnChange={handleChange}
-          value={project.name}
+          value={project.projectName}
         />
       </div>
       <div>
